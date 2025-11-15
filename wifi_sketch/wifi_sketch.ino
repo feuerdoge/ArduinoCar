@@ -12,7 +12,7 @@ char ssid[] = "ArduinoTest";
 char pass[] = "password";
 
 int status = WL_IDLE_STATUS;
-WiFiServer server(5555); // Creates server listens incomming connections to port 80
+WiFiServer server(5555); // Creates server listens incomming connections to port 5555
 
 void setup() {
   pinMode(EnA, OUTPUT);
